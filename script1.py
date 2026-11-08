@@ -4,7 +4,7 @@ def CycleRotation (A, K):
         A.append(A.pop(0))
     return A
 
-def OddOccurencesInArray(A):
+def OddOccurrencesInArray(A):
     A.sort()
     for i in range(0, len(A) - 1, 2) :
         if A[i] != A[i+1]:
