@@ -10,7 +10,7 @@ def OddOccurrencesInArray(A):
         if A[i] != A[i+1]:
              return A[i]
 
-def ForgJmp (X, Y, D):
+def FrogJmp (X, Y, D):
     num = 0
     while (X <= Y):
         X+=D
